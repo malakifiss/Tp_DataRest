@@ -43,9 +43,9 @@ public class TpDataRestApplication implements CommandLineRunner {
 
         // 🔹 Création d’un étudiant lié à ce centre
         Etudiant et1 = Etudiant.builder()
-                .nom("Haitam")
-                .prenom("Modli")
-                .genre(Genre.Homme)
+                .nom("ifiss")
+                .prenom("malak")
+                .genre(Genre.femme)
                 .centre(c1)
                 .build();
         etudiantRepository.save(et1);
