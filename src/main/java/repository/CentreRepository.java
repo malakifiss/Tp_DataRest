@@ -1,4 +1,8 @@
 package repository;
 
-public class CentreRepository {
+
+import model.Centre;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CentreRepository extends JpaRepository<Centre, Long> {
 }

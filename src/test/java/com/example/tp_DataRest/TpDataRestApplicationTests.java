@@ -1,4 +1,13 @@
-package com.example.tp_DataRest;
+package com.example.tp_datarest;
 
-public class TpDataRestApplicationTests {
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class TpDataRestApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
 }
